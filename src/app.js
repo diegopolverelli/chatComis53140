@@ -6,7 +6,7 @@ import { Server } from "socket.io";
 
 import { router as vistasRouter } from './routes/vistasRouter.js';
 
-const PORT=3000;
+const PORT=process.env.PORT;
 
 const app=express();
 
